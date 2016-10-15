@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView android:id="@+id/mainMenuImage"
+    	android:src="@drawable/starfighter"  
+    	android:layout_width="match_parent" 
+    	android:layout_height="match_parent">
+    </ImageView>
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+        <ImageButton 
+        	android:id="@+id/btnStart" 
+        	android:clickable="true"
+        	android:layout_alignParentLeft="true"
+        	android:layout_width="wrap_content" 
+        	android:src="@drawable/startselector" 
+        	android:layout_height="wrap_content" >
+        </ImageButton>
+    	<ImageButton 
+    		android:id="@+id/btnExit"  
+    		android:layout_width="wrap_content" 
+    		android:src="@drawable/exitselector" 
+    		android:layout_height="wrap_content" 
+    		android:layout_alignParentRight="true"
+    		android:clickable="true" >
+    	</ImageButton>
+    
+    </RelativeLayout>
+   </RelativeLayout>
